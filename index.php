@@ -99,7 +99,7 @@ class Main
       'username' => self::USERNAME,
       'password' => self::PASSWORD
     ];
-    $url = self::URL . 'login';
+    $url = self::URL_BASE . 'api/admin/login';
     $this->token = $this->post($url, $credentials)['token'];
   }
 
