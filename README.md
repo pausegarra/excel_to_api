@@ -23,7 +23,13 @@ After installing fill this constants and put an excel with the name "data.xlsx" 
   const PASSWORD = 'secret';
 ```
 
-> **Important!** The excel must have headers, that headerx will be used to create the arrays with the key => value, for example.
+Finally execute index.php file
+
+```bash
+  php ./index.php
+```
+
+> **Important!** The excel must have headers, that headers will be used to create the arrays with the key => value, for example.
 > The following table in excel:
 > | name | surname |
 > |------|---------|
